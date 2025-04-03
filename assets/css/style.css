@@ -45,7 +45,7 @@ a {
 
 .section-heading {
   color: #10375c;
-  font-size: 5rem;
+  font-size: 4.9rem;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -1px;
@@ -116,6 +116,7 @@ a {
   line-height: 1.75;
 }
 .navbar__link:hover,
+.header__action--login:hover,
 .navbar__link--active {
   text-shadow: 1px 0 0 currentColor;
   color: #fff;
@@ -462,4 +463,50 @@ a {
 .team__control {
   margin-top: 38px;
   justify-content: center;
+}
+
+/* ================= install =============== */
+.install__inner {
+  margin: 180px 0 85px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  position: absolute;
+  bottom: 0;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading {
+  max-width: 489px;
+  color: #fff;
+}
+
+.install__desc {
+  margin-top: 18px;
+  max-width: 586px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.install__row {
+  display: flex;
+  margin-top: 38px;
+  column-gap: 28px;
+  align-items: center;
 }
