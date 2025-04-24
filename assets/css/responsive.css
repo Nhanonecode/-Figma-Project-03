@@ -135,6 +135,46 @@
   .service-item {
     width: 90%;
   }
+
+  /* worf list */
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .work .section-heading {
+    text-align: center;
+  }
+
+  .work__desc {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  /* about */
+  .about-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .about__media {
+    width: 100%;
+  }
+
+  .about__img--big {
+    width: 100%;
+    border-radius: 15px;
+    margin: 25px auto;
+  }
+
+  .about__img--small {
+    display: none;
+  }
+
+  .about-content {
+    width: 90%;
+    text-align: center;
+  }
 }
 
 /* tablet */
