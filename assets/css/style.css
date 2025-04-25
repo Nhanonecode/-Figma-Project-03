@@ -534,7 +534,7 @@ a {
 }
 
 .blog__content {
-  max-width: 40%;
+  width: 40%;
 }
 
 .blog__heading {
